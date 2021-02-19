@@ -3,6 +3,46 @@
 Your code goes below.
 
 */
+let x = 3;
+let y = 10;
+let z = 5;
+let name = 'Jeremy';
+let greeting = 'HEY';
+
+function multiply() {
+  x = 3 * 45;
+}
+
+function modYBy() {
+  y = 10 % 4;
+}
+
+function opposite() {
+  z =3 - 3 + -3;
+  
+}
+
+//opposite();
+//z
+
+let oldName = name;
+//I was unable to figure this one out based on it telling me 
+//makeFullName is not a function
+
+function yellAt() {
+  greeting = greeting + ', ' + 'Colin!';
+
+}
+//yellAt();
+greeting
+
+
+
+
+
+
+
+
 
 
 
