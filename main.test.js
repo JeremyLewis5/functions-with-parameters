@@ -6,37 +6,33 @@ Your code goes below.
 let x = 3;
 let y = 10;
 let z = 5;
-let name = 'Jeremy';
+let name = 'Colin';
 let greeting = 'HEY';
 
-function multiply() {
-  x = 3 * 45;
+function multiply(num) {
+   x = 3 * 45;
 }
 
-function modYBy() {
-  y = 10 % 4;
+function modYBy(num) {
+  y = y % num;
 }
 
-function opposite() {
-  z =3 - 3 + -3;
+function opposite(num) {
+   z = 3 - 3 + -3;
   
 }
 
-//opposite();
-//z
+function makeFullName(lastName) {  
+  
+  name = name + ' ' + lastName;
+}
+  
 
-let oldName = name;
-//I was unable to figure this one out based on it telling me 
-//makeFullName is not a function
-
-function yellAt() {
-  greeting = greeting + ', ' + 'Colin!';
+function yellAt(str) {
+ greeting = greeting + ', ' + name + '!';
 
 }
-//yellAt();
-greeting
-
-
+ 
 
 
 
